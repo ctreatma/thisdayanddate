@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=&begin_date=18510101&end_date=18510101
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Mashery-Responder:
+      - prod-j-worker-atl-01.mashery.com
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Wed, 23 Sep 2015 01:00:59 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '160'
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - PHP/5.3.27
+      X-Cached:
+      - MISS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+    body:
+      encoding: UTF-8
+      string: '{"response":{"meta":{"hits":0,"time":56,"offset":0},"docs":[]},"status":"OK","copyright":"Copyright
+        (c) 2013 The New York Times Company.  All Rights Reserved."}'
+    http_version:
+  recorded_at: Wed, 23 Sep 2015 01:12:15 GMT
+recorded_with: VCR 2.9.3

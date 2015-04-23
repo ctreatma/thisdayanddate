@@ -1,0 +1,173 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=&begin_date=19790105&end_date=19790105
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Mashery-Responder:
+      - prod-j-worker-atl-02.mashery.com
+      Server:
+      - nginx/1.4.1
+      Date:
+      - Wed, 23 Sep 2015 01:00:59 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '14336'
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - PHP/5.3.27
+      X-Cached:
+      - MISS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+    body:
+      encoding: UTF-8
+      string: '{"response":{"meta":{"hits":207,"time":116,"offset":0},"docs":[{"web_url":"http:\/\/query.nytimes.com\/gst\/abstract.html?res=9F0CEEDA1039E732A25756C0A9679C946890D6CF","snippet":"BOSTON,
+        Jan. 4 (AP) The largest study ever conducted on women who take estrogen in
+        menopause concludes that the medicine can cause cancer of the uterus and that
+        the risk increases the longer the medicine is used.","lead_paragraph":"BOSTON,
+        Jan. 4 (AP) The largest study ever conducted on women who take estrogen in
+        menopause concludes that the medicine can cause cancer of the uterus and that
+        the risk increases the longer the medicine is used.","abstract":"Johns Hopkins
+        Univ study links use of estrogen taken during menopause to uterine cancer
+        and says risk increases at 5 yrs or more of use; study, published in NE Journal
+        of Med, contradicts Yale Univ rept indicating estrogen-cancer link was based
+        on faulty research (M)","print_page":"A21","blog":[],"source":"The New York
+        Times","multimedia":[],"headline":{"main":"LINKS OF ESTROGEN TO CANCER REVIVED;
+        Johns Hopkins Study Rebuts Yale Report High Risk Found in Uterus After 5-Year
+        Use U.S.Official Urges Caution The Factors Considered"},"keywords":[{"name":"subject","value":"CANCER"},{"name":"subject","value":"MENOPAUSE"}],"pub_date":"1979-01-05T00:00:00Z","document_type":"article","news_desk":null,"section_name":null,"subsection_name":null,"byline":null,"type_of_material":"Article","_id":"4fc4a36345c1498b0daaf745","word_count":498},{"web_url":"http:\/\/query.nytimes.com\/gst\/abstract.html?res=9B06EFDA1039E732A25756C0A9679C946890D6CF","snippet":"Mayor
+        Koch yesterday announced a series of cuts he is likely to order to close next
+        year''s budget gap, and said he was relying on the state and Federal governments
+        to give the city more than two-thirds of the $439 million it needs to eliminate
+        the...","lead_paragraph":"Mayor Koch yesterday announced a series of cuts
+        he is likely to order to close next year''s budget gap, and said he was relying
+        on the state and Federal governments to give the city more than two-thirds
+        of the $439 million it needs to eliminate the deficit.","abstract":"Mayor
+        Edward Koch''s plan to close fiscal ''80 budget gap envisions reduction of
+        about 7,000 jobs from city payroll, mostly through attrition (S)","print_page":"A1","blog":[],"source":"The
+        New York Times","multimedia":[],"headline":{"main":"City''s Fiscal Plan Includes
+        Reduction of 7,000 Jobs to Cut Deficit for 1980; ''Contingency Plan'' Due
+        Jan. 15"},"keywords":[{"name":"glocations","value":"NEW YORK CITY"},{"name":"glocations","value":"NEW
+        YORK CITY"},{"name":"glocations","value":"NEW YORK CITY"},{"name":"glocations","value":"NEW
+        YORK CITY"},{"name":"subject","value":"FIREMEN"},{"name":"subject","value":"POLICE"},{"name":"subject","value":"FINANCES"},{"name":"subject","value":"EXPENSE
+        BUDGET"},{"name":"subject","value":"GOVERNMENT EMPLOYEES AND OFFICIALS"}],"pub_date":"1979-01-05T00:00:00Z","document_type":"article","news_desk":null,"section_name":null,"subsection_name":null,"byline":{"person":[{"organization":"","role":"reported","rank":1,"firstname":"Lee","lastname":"DEMBART"}],"original":"By
+        LEE DEMBART"},"type_of_material":"Front Page","_id":"4fc4a36545c1498b0daaf8c3","word_count":1098},{"web_url":"http:\/\/query.nytimes.com\/gst\/abstract.html?res=9D07E7D91039E732A25756C0A9679C946890D6CF","snippet":"PHILADELPHIA,
+        Jan. 4 An aggressive and slightly desperate band of Philadelphia Flyers handed
+        the New York Islanders one of their rare National Hockey League defeats tonight,
+        rebounding from a 2-0 deficit early in the second period to register a 3-2...","lead_paragraph":"PHILADELPHIA,
+        Jan. 4 An aggressive and slightly desperate band of Philadelphia Flyers handed
+        the New York Islanders one of their rare National Hockey League defeats tonight,
+        rebounding from a 2-0 deficit early in the second period to register a 3-2
+        triumph before a capacity crowd of 17,077 at the Spectrum. They did it with
+        three power-play goals in the second period, the final one by Bobby Clarke.","abstract":null,"print_page":"A13","blog":[],"source":"The
+        New York Times","multimedia":[],"headline":{"main":"Flyers End Islander Streak,
+        3-2; An Opportunity Arises Sturdy Lead Is Fashioned","kicker":"1"},"keywords":[],"pub_date":"1979-01-05T00:00:00Z","document_type":"article","news_desk":null,"section_name":null,"subsection_name":null,"byline":{"person":[{"firstname":"Thomas","middlename":"Rogers","lastname":"Special","rank":1,"role":"reported","organization":""}],"original":"By
+        THOMAS ROGERS Special to The New York Times"},"type_of_material":"Article","_id":"4fc4a3da45c1498b0dab0ba6","word_count":670},{"web_url":"http:\/\/query.nytimes.com\/gst\/abstract.html?res=9406EFDA1039E732A25756C0A9679C946890D6CF","snippet":"MOSCOW,
+        Jan. 4 The Soviet Union, indicating approval of the Vietnamesebacked military
+        offensive into Cambodia, today reported a string of victories and said the
+        campaign was continuing.","lead_paragraph":"MOSCOW, Jan. 4 The Soviet Union,
+        indicating approval of the Vietnamesebacked military offensive into Cambodia,
+        today reported a string of victories and said the campaign was continuing.","abstract":"USSR,
+        indicating approval of Vietnamese-backed mil offensive into Cambodia, reptt
+        string of victories and says campaign it continuing; Soviet party paper Pravda
+        says Cambodian ''revolutionary armed forces'' are fighting against Cambodian
+        troops; illus of Cambodian Deputy Prime Min Son Sen with troop comdrs at frontline
+        hq (M)","print_page":"A1","blog":[],"source":"The New York Times","multimedia":[],"headline":{"main":"Moscow
+        Says Drive Into Cambodia Is by Vietnamese-Supported Rebels; ''Revolutionaries''
+        Said to Advance"},"keywords":[{"name":"glocations","value":"CAMBODIA"}],"pub_date":"1979-01-05T00:00:00Z","document_type":"article","news_desk":null,"section_name":null,"subsection_name":null,"byline":{"person":[{"firstname":"Craig","middlename":"R.","lastname":"WHITNEY","rank":1,"role":"reported","organization":""}],"original":"By
+        CRAIG R. WHITNEY Special to The New York Times"},"type_of_material":"Front
+        Page","_id":"4fc4a29d45c1498b0daac27a","word_count":699},{"web_url":"http:\/\/query.nytimes.com\/gst\/abstract.html?res=9D05E2D91039E732A25756C0A9679C946890D6CF","snippet":"TOKYO,Jan.
+        4 (AP) Japan''s gold and foreign exchange reserves stand at a record high
+        $33 billion after gaining $10.1 billion in 1978, the Finance Ministry reported
+        today.","lead_paragraph":"TOKYO,Jan. 4 (AP) Japan''s gold and foreign exchange
+        reserves stand at a record high $33 billion after gaining $10.1 billion in
+        1978, the Finance Ministry reported today.","abstract":"Japanese Finance Min
+        repts nation''s reserves are at record $33 billion after gaining $10.1 billion
+        in ''78 (S)","print_page":"D9","blog":[],"source":"The New York Times","multimedia":[],"headline":{"main":"Japan
+        Reserves At New High"},"keywords":[{"name":"glocations","value":"JAPAN"},{"name":"subject","value":"CURRENCY"}],"pub_date":"1979-01-05T00:00:00Z","document_type":"article","news_desk":null,"section_name":null,"subsection_name":null,"byline":null,"type_of_material":"Article","_id":"4fc4a3e445c1498b0dab18cc","word_count":124},{"web_url":"http:\/\/query.nytimes.com\/gst\/abstract.html?res=9A05E7D91039E732A25756C0A9679C946890D6CF","snippet":"In
+        its zeal to encourage the release of petty delinquents, has the Federal Office
+        of Juvenile Justice and Delinquency Prevention neglected the possibility of
+        helping serious offenders? Are they being held in state correctional facilities
+        with too...","lead_paragraph":"In its zeal to encourage the release of petty
+        delinquents, has the Federal Office of Juvenile Justice and Delinquency Prevention
+        neglected the possibility of helping serious offenders? Are they being held
+        in state correctional facilities with too little thought about alternatives
+        providing greater individual attention to their prospects after release?","abstract":"Ed
+        noting successful efforts throughout US in finding alternatives to prison
+        for nonviolent juvenile offenders holds that intensive campaign should begin
+        to help violent and habitual juvenile offenders","print_page":"A22","blog":[],"source":"The
+        New York Times","multimedia":[],"headline":{"main":"Focusing on the Toughest
+        Teen-Agers"},"keywords":[{"name":"glocations","value":"UNITED STATES"},{"name":"subject","value":"CRIME
+        AND CRIMINALS"}],"pub_date":"1979-01-05T00:00:00Z","document_type":"article","news_desk":null,"section_name":null,"subsection_name":null,"byline":null,"type_of_material":"Editorial","_id":"4fc4a3e445c1498b0dab18db","word_count":326},{"web_url":"http:\/\/query.nytimes.com\/gst\/abstract.html?res=9A02EFDA1039E732A25756C0A9679C946890D6CF","snippet":"WASHINGTON,
+        Jan. 4 Although the United States supports Cambodia''s request for an urgent
+        meeting of the United Nations Security Council to discuss Vietnam''s invasion
+        of Cambodia, it is not committed to a particular position in that debate,
+        the State...","lead_paragraph":"WASHINGTON, Jan. 4 Although the United States
+        supports Cambodia''s request for an urgent meeting of the United Nations Security
+        Council to discuss Vietnam''s invasion of Cambodia, it is not committed to
+        a particular position in that debate, the State Department said today.","abstract":"US
+        State Dept spokesman Hodding Carter 3d says that while US supports Cambodia''s
+        request for UN Security Council meeting to discuss Vietnamese invasion of
+        Cambodia, it is not committed to particular position on issue (S)","print_page":"A4","blog":[],"source":"The
+        New York Times","multimedia":[],"headline":{"main":"U.S.Is Not Committed On
+        the Cambodia Issue"},"keywords":[{"name":"glocations","value":"CAMBODIA"}],"pub_date":"1979-01-05T00:00:00Z","document_type":"article","news_desk":null,"section_name":null,"subsection_name":null,"byline":{"person":[{"organization":"","role":"reported","rank":1}],"original":"Special
+        to The New York Times"},"type_of_material":"Article","_id":"4fc4a7c745c1498b0dac28b3","word_count":114},{"web_url":"http:\/\/query.nytimes.com\/gst\/abstract.html?res=9C03EFDA1039E732A25756C0A9679C946890D6CF","snippet":"The
+        future of the American military investment in Europe is expected to be the
+        principal security issue discussed at the Western summit meeting at Guadeloupe.","lead_paragraph":"The
+        future of the American military investment in Europe is expected to be the
+        principal security issue discussed at the Western summit meeting at Guadeloupe.","abstract":"Mil
+        analysis finds NATO will be principal security issue discussed at Guadeloupe
+        summit between leaders of US, France, GB and W Ger","print_page":"A3","blog":[],"source":"The
+        New York Times","multimedia":[],"headline":{"main":"Major Issue at Guadeloupe:
+        U.S. Stand on NATO Defense; Military Analysis Assurance of Defense Commitment
+        Europeans Want Neutron Bomb Emphasis on Weapon Questioned"},"keywords":[{"name":"organizations","value":"NORTH
+        ATLANTIC TREATY ORGANIZATION"},{"name":"subject","value":"INTERNATIONAL RELATIONS"}],"pub_date":"1979-01-05T00:00:00Z","document_type":"article","news_desk":null,"section_name":null,"subsection_name":null,"byline":{"person":[{"organization":"","role":"reported","rank":1,"firstname":"Drew","lastname":"MIDDLETON"}],"original":"By
+        DREW MIDDLETON"},"type_of_material":"Article","_id":"4fc4a17545c1498b0daa7fdd","word_count":761},{"web_url":"http:\/\/query.nytimes.com\/gst\/abstract.html?res=9C01EFDA1039E732A25756C0A9679C946890D6CF","snippet":"WASHINGTON,
+        Jan. 4--The Forest Service today signaled the beginning of another conservation
+        battle by recommending that 36 million additional acres of roadless land within
+        the National Forests be opened for timber cutting, mining and motorized...","lead_paragraph":"WASHINGTON,
+        Jan. 4--The Forest Service today signaled the beginning of another conservation
+        battle by recommending that 36 million additional acres of roadless land within
+        the National Forests be opened for timber cutting, mining and motorized recreation
+        and by calling for the creation of 15 million acres of new wilderness areas.","abstract":"Forest
+        Service recommends that 36 million additional acres of land within Natl Forests
+        be opened for mining; map (M)","print_page":"A1","blog":[],"source":"The New
+        York Times","multimedia":[],"headline":{"main":"Forest Service Seeking 36
+        Million More Acres For Timber and Mines; Forest Service Seeking Land for Timber
+        and Mines"},"keywords":[{"name":"glocations","value":"UNITED STATES"},{"name":"subject","value":"WOOD
+        AND WOOD PRODUCTS"},{"name":"subject","value":"WOOD AND WOOD PRODUCTS"},{"name":"subject","value":"WILDERNESS
+        AREAS"},{"name":"subject","value":"METALS AND MINERALS"}],"pub_date":"1979-01-05T00:00:00Z","document_type":"article","news_desk":null,"section_name":null,"subsection_name":null,"byline":{"person":[{"firstname":"Seth","middlename":"S.","lastname":"KING","rank":1,"role":"reported","organization":""}],"original":"By
+        SETH S. KING Special to The New York Times"},"type_of_material":"Front Page","_id":"4fc4a17645c1498b0daa8132","word_count":755},{"web_url":"http:\/\/query.nytimes.com\/gst\/abstract.html?res=9406EEDA1039E732A25756C0A9679C946890D6CF","snippet":"Phil
+        Bieber is in his winter home in Florida, thinking beautiful thoughts and writing
+        letters to keep warm. Until this week''s freeze, there had been no hint of
+        winter down there, but a few days after Christmas Miami was hit by an electrical
+        storm so...","lead_paragraph":"Phil Bieber is in his winter home in Florida,
+        thinking beautiful thoughts and writing letters to keep warm. Until this week''s
+        freeze, there had been no hint of winter down there, but a few days after
+        Christmas Miami was hit by an electrical storm so violent that it took Phil
+        back to 1938 at Rockingham Park. As he tells it:","abstract":null,"print_page":"A16","blog":[],"source":"The
+        New York Times","multimedia":[],"headline":{"main":"Phil Bieber and His Hurricane;
+        Sports of The Times","kicker":"1"},"keywords":[],"pub_date":"1979-01-05T00:00:00Z","document_type":"article","news_desk":null,"section_name":null,"subsection_name":null,"byline":{"person":[{"organization":"","role":"reported","firstname":"Red","rank":1,"lastname":"Smith"}],"original":"Red
+        Smith"},"type_of_material":"Article","_id":"4fc4a16b45c1498b0daa7363","word_count":1110}]},"status":"OK","copyright":"Copyright
+        (c) 2013 The New York Times Company.  All Rights Reserved."}'
+    http_version:
+  recorded_at: Wed, 23 Sep 2015 01:12:15 GMT
+recorded_with: VCR 2.9.3
