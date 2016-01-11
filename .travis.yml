@@ -1,0 +1,3 @@
+language: ruby
+before_install:
+  -  openssl aes-256-cbc -K $encrypted_cb334840b8cf_key -iv $encrypted_cb334840b8cf_iv -in config/application.yml.enc -out config/application.yml -d
