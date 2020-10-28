@@ -3,7 +3,7 @@ ruby '2.5.7'
 
 # Lock rake to avoid removal of `last_comment`
 # TODO: remove this after upgrading other dependencies
-gem 'rake', '< 12'
+gem 'rake', '< 13'
 
 gem 'rails', '4.2.11.3'
 # Use SCSS for stylesheets
