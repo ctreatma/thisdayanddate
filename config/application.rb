@@ -28,6 +28,6 @@ module Thisdayanddate
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
     config.article_search_key = ENV['NYT_API_KEY']
-    config.article_search_api = 'http://api.nytimes.com/svc/search/v2/articlesearch.json'
+    config.article_search_api = 'https://api.nytimes.com/svc/search/v2/articlesearch.json'
   end
 end
