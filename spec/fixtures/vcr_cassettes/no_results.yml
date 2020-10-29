@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=&begin_date=18510101&end_date=18510101
+    uri: http://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=nyt_api_key&begin_date=18510101&end_date=18510101
     body:
       encoding: US-ASCII
       string: ''

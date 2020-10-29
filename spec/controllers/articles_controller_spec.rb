@@ -7,7 +7,7 @@ RSpec.describe ArticlesController, type: :controller do
       search = double ArticleSearch
       expect(ArticleSearch).to receive(:new).and_return(search)
       expect(search).to receive(:fetch).and_return({})
-      get :index, year: '1979', month: '01', day: '01'
+      get :index, params: { year: '1979', month: '01', day: '01' }
     end
 
     it 'returns http success' do
