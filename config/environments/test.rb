@@ -39,4 +39,7 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  # Set a static, fake API key for testing
+  config.article_search_key = 'nyt_api_key'
 end
