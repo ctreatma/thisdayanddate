@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
-ruby '2.5.7'
+ruby '2.7.4'
 
-gem 'rails', '6.0.3.4'
+gem 'rails', '6.0.4.1'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', group: :doc
 gem 'rest-client'
 
 group :development, :test do
